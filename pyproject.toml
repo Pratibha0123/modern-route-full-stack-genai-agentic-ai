@@ -1,0 +1,20 @@
+[project]
+name = "modern-route-full-stack-generativeai-and-agentic-ai-code"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "ipykernel>=7.4.0",
+    "numpy>=2.5.3",
+    "pandas>=3.0.6",
+    "python-dotenv>=1.2.4",
+    "tavily-python>=0.8.4",
+]
+
+[project.scripts]
+modern-route-full-stack-generativeai-and-agentic-ai-code = "modern_route_full_stack_generativeai_and_agentic_ai_code:main"
+
+[build-system]
+requires = ["uv_build>=0.12.23,<0.13.0"]
+build-backend = "uv_build"
