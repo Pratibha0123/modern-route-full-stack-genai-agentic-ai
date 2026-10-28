@@ -1,0 +1,240 @@
+{
+  "version": "1.0",
+  "truncation": null,
+  "padding": null,
+  "added_tokens": [],
+  "normalizer": null,
+  "pre_tokenizer": {
+    "type": "Whitespace"
+  },
+  "post_processor": null,
+  "decoder": null,
+  "model": {
+    "type": "BPE",
+    "dropout": null,
+    "unk_token": null,
+    "continuing_subword_prefix": null,
+    "end_of_word_suffix": null,
+    "fuse_unk": false,
+    "byte_fallback": false,
+    "ignore_merges": false,
+    "vocab": {
+      "!": 0,
+      ".": 1,
+      "B": 2,
+      "I": 3,
+      "T": 4,
+      "a": 5,
+      "d": 6,
+      "e": 7,
+      "f": 8,
+      "g": 9,
+      "i": 10,
+      "k": 11,
+      "l": 12,
+      "m": 13,
+      "n": 14,
+      "o": 15,
+      "r": 16,
+      "s": 17,
+      "t": 18,
+      "u": 19,
+      "v": 20,
+      "w": 21,
+      "y": 22,
+      "z": 23,
+      "er": 24,
+      "ers": 25,
+      "Bu": 26,
+      "To": 27,
+      "am": 28,
+      "an": 29,
+      "ar": 30,
+      "az": 31,
+      "en": 32,
+      "fo": 33,
+      "il": 34,
+      "in": 35,
+      "iz": 36,
+      "ken": 37,
+      "lo": 38,
+      "mers": 39,
+      "ou": 40,
+      "ow": 41,
+      "ran": 42,
+      "rmers": 43,
+      "sfo": 44,
+      "tran": 45,
+      "ve": 46,
+      "you": 47,
+      "Buil": 48,
+      "Token": 49,
+      "amaz": 50,
+      "are": 51,
+      "ing": 52,
+      "izers": 53,
+      "love": 54,
+      "own": 55,
+      "sformers": 56,
+      "transformers": 57,
+      "your": 58,
+      "Build": 59,
+      "Tokenizers": 60,
+      "amazing": 61
+    },
+    "merges": [
+      [
+        "e",
+        "r"
+      ],
+      [
+        "er",
+        "s"
+      ],
+      [
+        "B",
+        "u"
+      ],
+      [
+        "T",
+        "o"
+      ],
+      [
+        "a",
+        "m"
+      ],
+      [
+        "a",
+        "n"
+      ],
+      [
+        "a",
+        "r"
+      ],
+      [
+        "a",
+        "z"
+      ],
+      [
+        "e",
+        "n"
+      ],
+      [
+        "f",
+        "o"
+      ],
+      [
+        "i",
+        "l"
+      ],
+      [
+        "i",
+        "n"
+      ],
+      [
+        "i",
+        "z"
+      ],
+      [
+        "k",
+        "en"
+      ],
+      [
+        "l",
+        "o"
+      ],
+      [
+        "m",
+        "ers"
+      ],
+      [
+        "o",
+        "u"
+      ],
+      [
+        "o",
+        "w"
+      ],
+      [
+        "r",
+        "an"
+      ],
+      [
+        "r",
+        "mers"
+      ],
+      [
+        "s",
+        "fo"
+      ],
+      [
+        "t",
+        "ran"
+      ],
+      [
+        "v",
+        "e"
+      ],
+      [
+        "y",
+        "ou"
+      ],
+      [
+        "Bu",
+        "il"
+      ],
+      [
+        "To",
+        "ken"
+      ],
+      [
+        "am",
+        "az"
+      ],
+      [
+        "ar",
+        "e"
+      ],
+      [
+        "in",
+        "g"
+      ],
+      [
+        "iz",
+        "ers"
+      ],
+      [
+        "lo",
+        "ve"
+      ],
+      [
+        "ow",
+        "n"
+      ],
+      [
+        "sfo",
+        "rmers"
+      ],
+      [
+        "tran",
+        "sformers"
+      ],
+      [
+        "you",
+        "r"
+      ],
+      [
+        "Buil",
+        "d"
+      ],
+      [
+        "Token",
+        "izers"
+      ],
+      [
+        "amaz",
+        "ing"
+      ]
+    ]
+  }
+}
